@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class YHController {
 	
 	@RequestMapping("/")
-	public String home() {
+	public String YH() {
 		return "home";
 	}
 }
